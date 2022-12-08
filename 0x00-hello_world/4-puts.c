@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * *main - print a code line using puts
  * Return: 0
