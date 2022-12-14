@@ -1,4 +1,5 @@
 #include "main.h"
+#include <sdio.h>
 /**
  * print_alphabet  - This prints the alphabet a - z
  */
