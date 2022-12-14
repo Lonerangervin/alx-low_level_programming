@@ -1,18 +1,20 @@
-#include<stdio.h>
+#include "main.h"
+
 /**
- * main - entry
- * Return: Always (0);
+ * print_alphabet - Entry point
+ * Return:0
  */
-print_avoid print_alphabet(void)
+
+void print_alphabet(void)
 {
-	char c;
+	char c = 'a';
 
-	if (c == 'a')
-		if c < = 'z';
-	if c++;
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
 
-	putchar("%c lowercase aphabet\n");
-	return (0);
+	}
+	_putchar('\n');
+
 }
-
-
