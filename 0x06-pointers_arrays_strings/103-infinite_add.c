@@ -24,7 +24,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	if (size_r <= strg)
 		return (0);
 	r [bg + 1]
-	len1 = len1 - 1;
+	
 	len2 = len2 - 1;
 /* defining the longitude in 2 digits to store it in buffer */
 	while (len1 >= 0 || len2 >= 0)
@@ -40,7 +40,6 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		if (d3 > 9)
 		{
 			s3 = 1;
-			s3 = s3 - 10;
 		}
 		else
 			s3 = 0;
